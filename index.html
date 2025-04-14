@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea's Photography</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/Logo ANDREA'S PHOTOGRAPHY favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <img class="logoImg" src="/images/Logo ANDREA'S PHOTOGRAPHY 320x320.png" alt="">
+        <a class="navbar-brand" href="#">Andrea's Photography</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#info">Informazioni</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Lavori</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Contatti</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Informazioni -->
+  <section id="info" class="section">
+    <div class="container">
+      <div class="bio">
+        <h2>Chi sono</h2>
+        <div class="d-flex" style="align-items: center; align-content: center;">
+            <img src="/images/profilePic.jpg" alt="Immagine profilo" class="roundImg" style="max-width: 100px; margin-right: 2em;">
+            <label style="text-align: start;">Sono un fotografo amatoriale con la passione per la fotografia di paesaggi, ritratti e spettacoli, specialmente fiere ed eventi cosplay o legati al mondo Comics & Games.</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lavori -->
+  <section id="works" class="section bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-5">I miei lavori</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_0406.jpeg" class="grid-img" alt="Foto 1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9269.jpeg" class="grid-img" alt="Foto 2">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9394.jpeg" class="grid-img" alt="Foto 3">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9516.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9582.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9632.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9586.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9592.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9667.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/images/works/IMG_9711.jpeg" class="grid-img" alt="Foto 4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal per ingrandire le immagini -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+          <img src="" id="modalImage" class="w-100" alt="Immagine ingrandita">
+        </div>
+        <div class="modal-footer bg-dark border-0">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contatti -->
+  <section id="contacts" class="section">
+    <div class="container text-center">
+      <h2>Contatti</h2>
+      <p>Contattami per collaborazioni, shooting o semplici informazioni.</p>
+      <div class="contact-buttons">
+        <a href="https://wa.me/3291227530" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://www.instagram.com/andreas.ph0tography?igsh=MWFzcGZ5eGcwcGE1cw%3D%3D&utm_source=qr" class="btn btn-danger" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="mailto:sandri.andrea179@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
